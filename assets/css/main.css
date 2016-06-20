@@ -2691,8 +2691,14 @@
 				width: 360px;
 			}
 
-			.floating img {
+			.floating2 {
+				float: right;
+			}
+			.smaller {
 				width: 260px;
+				margin-left: 30px;
+				margin-right: 20px;
+				margin-top: 100px;
 			}
 			.wrapper.style1 input[type="text"],
 			.wrapper.style1 input[type="password"],
