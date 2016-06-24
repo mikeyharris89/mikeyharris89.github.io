@@ -1598,6 +1598,9 @@
 		text-align: right;
 	}
 
+	.special a {
+		margin: 5px 5px 0px 0px;
+	}
 /* Section/Article */
 
 	section.special, article.special {
@@ -2395,7 +2398,7 @@
 			width: 16%;
 		}
 
-			.features li:nth-child(1) {
+			/*.features li:nth-child(1) {
 				background-color: rgba(0, 0, 0, 0.035);
 			}
 
@@ -2439,7 +2442,7 @@
 			}
 			.features li:nth-child(12) {
 				background-color: rgba(0, 0, 0, 0.420);
-			}
+			}*/
 
 			.features li:before {
 				display: block;
@@ -2697,7 +2700,7 @@
 			}
 			.floating {
 				float: left;
-				width: 360px;
+				width: 450px;;
 			}
 
 			.floating2 {
@@ -2729,11 +2732,19 @@
 				width: 260px;
 				margin-left: 30px;
 				margin-right: 20px;
-				margin-top: 65px;
 			}
 			.floating3 {
 				float: left;
 				margin-top: 20px;
+			}
+
+			.floating2 p {
+				margin-bottom: 1em;
+			}
+
+			.spotlight a {
+				border-bottom: solid 1px;
+				margin-right: 10px;
 			}
 			.floating.major {
 				margin: 0;
@@ -3443,6 +3454,10 @@
 
 	#banner {
 		background-image: url("../../images/pacman.jpg");
+		-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
